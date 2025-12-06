@@ -1,0 +1,5 @@
+Name/required level/damage/mana cost/DC
+Lightning_Dagger   1   30   30   8
+Thunder_Blast   4   95   95   12
+Electric_Arrows   5   100   100   12
+Spark_Needles   2   60   60   10

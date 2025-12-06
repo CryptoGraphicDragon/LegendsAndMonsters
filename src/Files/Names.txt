@@ -1,0 +1,19 @@
+Class/Name
+Warrior   Parzival
+Warrior   Sehanine_Moonbow
+Warrior   Skoraeus_Stonebones
+Wizard   Garl_Glittergold
+Healer   Amaryllis_Astra
+Wizard   Caliber_Heist
+Wizard   Rillifane_Rallathil
+Wizard   Segojan_Earthcaller
+Warrior   Reign_Havoc
+Healer   Reverie_Ashels
+Healer   Kalabar
+Wizard   Skye_Soar
+Warrior   Gaerdal_Ironhand
+Warrior   Sehanine_Monnbow
+Wizard   Muamman_Duathall
+Warrior   Flandal_Steelskin
+Warrior   Undefeated_Yoj
+Healer   Eunoia_Cyn

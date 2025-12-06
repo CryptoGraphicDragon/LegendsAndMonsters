@@ -1,0 +1,7 @@
+Name/cost/required level/damage reduction
+Leather_Armor   150   1   2
+Chain_maille   250   2   3
+Plate_Armor   350   3   4
+Green_Glass_Plate   800   5   5
+Wizard_Shield   1000   8   8
+Guardian_Angel   1200   10   10

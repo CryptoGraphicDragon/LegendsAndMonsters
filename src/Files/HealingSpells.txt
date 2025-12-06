@@ -1,0 +1,6 @@
+Name/required level/healing/mana cost/dc
+Minor_Healing   0   20   25   0
+Healing_Word   2   45   35   0
+Song_Of_Healing   4   60   40   0
+Major_Healing   7   100   60   0
+Full_Heal   10   600   100   0

@@ -1,0 +1,4 @@
+ClassName/AC/Health/Mana/Strength/Dexterity/Intelligence
+Warrior   15   200   50   5   3   2
+Wizard   10   100   200   2   3   5
+Healer   12   150   150   3   3   3

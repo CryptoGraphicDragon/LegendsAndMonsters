@@ -1,0 +1,7 @@
+Name/cost/level/damage/
+Sword   500   2   8
+Bow   300   3   6
+Scythe   1000   6   20
+Axe   550   5   10
+Long_Sword   1400   8   12
+Dagger   200   1   4

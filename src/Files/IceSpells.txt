@@ -1,0 +1,6 @@
+Name/required level/damage/mana cost/DC
+Chill_Touch   0   8   10   8
+Snow_Cannon   2   30   20   12
+Ice_Blade   1   20   15   10
+Frost_Blizzard   5   60   50   15
+Arctic_Storm   6   80   60   18

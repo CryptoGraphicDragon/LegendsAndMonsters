@@ -1,0 +1,7 @@
+Name/required level/damage/mana cost/DC
+Spark   0   10   20   10
+Flame_Tornado   4   85   60   16
+Breath_of_Fire   1   45   30   12
+Heat_Wave   2   60   40   15
+Lava_Comet   8   100   70   18
+Hell_Storm   3   70   50   15
