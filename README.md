@@ -76,24 +76,24 @@ Current Java source files grouped by package:
 The project is structured with the root package `project` inside `src/main/java/`.
 To compile and run from the terminal, navigate to the project's root directory (the one containing `src`).
 
-4.1**Navigate to the Source Directory:**
-    ```bash
-    You should have something like this:
+1.**Navigate to the Source Directory:**
+You should have something like this:
+    ```
     cd "<directory>\Game"
     ```
 
-4.2.**Create bin Directory:**
-    ```bash
+2.**Create bin Directory:**
+    ```
     mkdir bin
     ```
 
-4.3.**Compile the Code:**
-    ```bash
+3.**Compile the Code:**
+    ```
     javac -d . src/Board/*.java src/Game/*.java src/Heroes/*.java src/Inventory/*.java src/Monsters/*.java src/*.java
     ```
 
-4.4**Run the Game:**
-    ```bash
+4**Run the Game:**
+    ```
     java Main
     ```
 
