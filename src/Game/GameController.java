@@ -180,6 +180,9 @@ public class GameController {
         System.out.println();
         System.out.println("FIGHT!");
         int rank = game.getBoard().getTile(position.getRow(), position.getCol()).getRank();
+        if (rank > 10){
+            rank = 10;
+        }
         List<Monster> possibleMonsters = game.getAllMonsters().getMonstersOfLevel(rank);
         Monster encounter = possibleMonsters.get(Dice.rollDie(possibleMonsters.size())-1);
         while (encounter.getHealth() > 0 || getHeroHealth() > 0){
@@ -264,13 +267,16 @@ public class GameController {
             } else {
                 System.out.println(encounter.getName() + " has died! You win!");
                 int exp = (((encounter.getLevel() - heroes.get(0).getLevel())*100)/heroes.size())-(game.getDifficulty()*20);
-                System.out.println("Each hero gets "+ exp+ " experience");
+                int gold = encounter.getLevel()*100;
+                System.out.println("Each hero gets "+ exp+ " experience and "+gold+" gold pieces");
                 for (Hero hero : heroes){
                     int changed = hero.addEXP(exp);
                     if (changed > 0){
                         levelUp(changed, hero.getLevel(), hero);
                     }
+                    hero.getInventory().addToGold(gold);
                 }
+                break;
             }
         }
     }
