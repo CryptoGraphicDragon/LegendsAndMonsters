@@ -282,7 +282,7 @@ public class GameController {
     }
 
     private void levelUp(int levelsChanged, int newLevel, Hero hero) {
-        System.out.println(hero.getName()+" has have leveled up! " + levelsChanged + " new levels earned. Gained bonuses and new spells");
+        System.out.println(hero.getName()+" has leveled up! " + levelsChanged + " new levels earned. Gained bonuses and new spells");
         switch (hero.getClassName()) {
             case "WARRIOR":
                 hero.setStrength(hero.getStrength() + 2 * levelsChanged);

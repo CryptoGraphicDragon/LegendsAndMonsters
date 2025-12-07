@@ -92,7 +92,7 @@ You should have something like this:
     javac -d . src/Board/*.java src/Game/*.java src/Heroes/*.java src/Inventory/*.java src/Monsters/*.java src/*.java
     ```
 
-4**Run the Game:**
+4.**Run the Game:**
     ```
     java Main
     ```
