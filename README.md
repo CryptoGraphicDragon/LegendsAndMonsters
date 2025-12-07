@@ -89,7 +89,7 @@ To compile and run from the terminal, navigate to the project's root directory (
 
 4.3.**Compile the Code:**
     ```bash
-    javac -d . src/*/*.java src/*/*/*.java
+    javac -d . src/Board/*.java src/Game/*.java src/Heroes/*.java src/Inventory/*.java src/Monsters/*.java src/*.java
     ```
 
 4.4**Run the Game:**
